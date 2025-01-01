@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Index - HeroBiz Bootstrap Template</title>
+    <title>Observatorio de Libertad de Expresión y violencia contra periodistas</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <!-- Fonts -->

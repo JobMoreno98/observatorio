@@ -11,69 +11,16 @@ require_once "layouts/head.php";
 
     <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative"
       data-aos="zoom-out">
-      <img src="assets/img/hero-img.svg" class="img-fluid animated" alt="">
-      <h1>Welcome to <span>HeroBiz</span></h1>
-      <p>Et voluptate esse accusantium accusamus natus reiciendis quidem voluptates similique aut.</p>
-      <div class="d-flex">
-        <a href="#about" class="btn-get-started scrollto">Get Started</a>
-        <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8"
-          class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch
-            Video</span></a>
-      </div>
+      <h1>Bienvenido</h1>
     </div>
 
-  </section><!-- /Hero Section -->
-
-  <!-- Featured Services Section -->
-  <section id="featured-services" class="featured-services section">
-
-    <div class="container" data-aos="fade-up">
-
-      <div class="row gy-4">
-
-        <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
-          <div class="service-item position-relative">
-            <div class="icon"><i class="bi bi-activity icon"></i></div>
-            <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
-            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-          </div>
-        </div><!-- End Service Item -->
-
-        <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
-          <div class="service-item position-relative">
-            <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
-            <h4><a href="" class="stretched-link">Sed ut perspici</a></h4>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-          </div>
-        </div><!-- End Service Item -->
-
-        <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
-          <div class="service-item position-relative">
-            <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
-            <h4><a href="" class="stretched-link">Magni Dolores</a></h4>
-            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-          </div>
-        </div><!-- End Service Item -->
-
-        <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
-          <div class="service-item position-relative">
-            <div class="icon"><i class="bi bi-broadcast icon"></i></div>
-            <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
-            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-          </div>
-        </div><!-- End Service Item -->
-
-      </div>
-
-    </div>
-
-  </section><!-- /Featured Services Section -->
+  </section>
 
   <!-- About Section -->
-  <section id="about" class="about section">
+  <section id="about" class="about section" data-aos="zoom-in-up"  data-aos-duration="2000">
 
     <!-- Section Title -->
-    <div class="container" data-aos="fade-up">
+    <div class="container" data-aos="zoom-in-up">
       <h2 class="section-title">Acerca de</h2>
       <p>El Observatorio de libertad de expresión y violencia contra periodistas nació en diciembre de 2021 en el seno
         del Departamento de Sociología del Centro Universitario de Ciencias Sociales y Humanidades y tiene como
@@ -106,42 +53,48 @@ require_once "layouts/head.php";
           por tanto se encuentran más vulnerables en zonas silenciadas o lejanas.
         </li>
       </ul>
-      <h3 class="section-title">Actividades Centrales del Observatorio</h3>
+      <div data-aos="zoom-in-up" data-aos-duration="1000">
+        <h3 class="section-title">Actividades Centrales del Observatorio</h3>
 
-      <ul>
-        <li>Suscribir pronunciamientos y comunicados ante agresiones graves a la libertad de expresión y a las
-          personas
-          periodistas</li>
-        <li>Realizar informes periódicos sobre el estado de la libertad de expresión en México y en particular en
-          Jalisco a fin de proporcionar indicadores, insumos, análisis de contextos y evaluación de la libertad de
-          expresión y la apertura de los espacios cívicos regionales.</li>
-        <li>Llevar a cabo un Seminario Permanente para visibilizar las investigaciones de integrantes de la academia
-          discutidos por periodistas y viceversa.</li>
-        <li>Celebrar la Cátedra Anual de Libertad de Expresión dedicada a una persona periodista asesinada para dar
-          cuenta del estado de avance en las investigaciones sobre el caso y el contexto de violencia en la región en
-          donde realizaba su trabajo.
-        </li>
-        <li>Otras actividades de difusión de la temática del observatorio.</li>
-      </ul>
-
-      <h3 class="section-title">Estructura del Observatorio</h3>
-      <p>
-        El Observatorio de Libertad de Expresión y violencia contra periodistas está integrado por una coordinadora,
-        un secretario técnico, una red de observadores integrada por personas periodistas y académicas relacionadas
-        con la Universidad de Guadalajara, y por un consejo consultivo externo.
-
-      </p>
-      <div>
-        <a href="" class="btn btn-primary btn-sm">Ver estructura</a>
+        <ul>
+          <li>Suscribir pronunciamientos y comunicados ante agresiones graves a la libertad de expresión y a las
+            personas
+            periodistas</li>
+          <li>Realizar informes periódicos sobre el estado de la libertad de expresión en México y en particular en
+            Jalisco a fin de proporcionar indicadores, insumos, análisis de contextos y evaluación de la libertad de
+            expresión y la apertura de los espacios cívicos regionales.</li>
+          <li>Llevar a cabo un Seminario Permanente para visibilizar las investigaciones de integrantes de la academia
+            discutidos por periodistas y viceversa.</li>
+          <li>Celebrar la Cátedra Anual de Libertad de Expresión dedicada a una persona periodista asesinada para dar
+            cuenta del estado de avance en las investigaciones sobre el caso y el contexto de violencia en la región en
+            donde realizaba su trabajo.
+          </li>
+          <li>Otras actividades de difusión de la temática del observatorio.</li>
+        </ul>
       </div>
+
+      <div data-aos="zoom-in-up" data-aos-duration="1000">
+        <h3 class="section-title">Estructura del Observatorio</h3>
+        <p>
+          El Observatorio de Libertad de Expresión y violencia contra periodistas está integrado por una coordinadora,
+          un secretario técnico, una red de observadores integrada por personas periodistas y académicas relacionadas
+          con la Universidad de Guadalajara, y por un consejo consultivo externo.
+
+        </p>
+        <div>
+          <a href="" class="btn btn-primary btn-sm">Ver estructura</a>
+        </div>
+      </div>
+
+
 
     </div><!-- End Section Title -->
 
 
   </section><!-- /About Section -->
-  
+
   <section id="lineas">
-    <div class="container" data-aos="fade-up">
+    <div class="container" data-aos="zoom-in-up" data-aos-duration="2000">
       <h3 class="text-center">
         Lineas de Investigación
       </h3>
@@ -162,10 +115,10 @@ require_once "layouts/head.php";
   <section id="contact" class="contact section">
 
     <!-- Section Title -->
-    <div class="container section-title" data-aos="fade-up">
+    <div class="container section-title" data-aos="zoom-in-up" data-aos-duration="2000">
       <h2>Contacto</h2>
     </div><!-- End Section Title -->
-    <div class="container" data-aos="fade">
+    <div class="container" data-aos="zoom-in-up" data-aos-duration="2000">
 
       <div class="row gy-5 gx-lg-5">
 
