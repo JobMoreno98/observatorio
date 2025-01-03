@@ -17,7 +17,7 @@ require_once "layouts/head.php";
   </section>
 
   <!-- About Section -->
-  <section id="about" class="about section" data-aos="zoom-in-up"  data-aos-duration="2000">
+  <section id="about" class="about section" data-aos="zoom-in-up" data-aos-duration="1000">
 
     <!-- Section Title -->
     <div class="container" data-aos="zoom-in-up">
@@ -81,20 +81,15 @@ require_once "layouts/head.php";
           con la Universidad de Guadalajara, y por un consejo consultivo externo.
 
         </p>
-        <div>
-          <a href="" class="btn btn-primary btn-sm">Ver estructura</a>
+        <div class="text-center">
+          <li class="list-group-item"><a href="./estructura.php#estructura" class="text-decoration-none">Ver estructura</a></li>
         </div>
       </div>
-
-
-
-    </div><!-- End Section Title -->
-
-
-  </section><!-- /About Section -->
+    </div>
+  </section>
 
   <section id="lineas">
-    <div class="container" data-aos="zoom-in-up" data-aos-duration="2000">
+    <div class="container" data-aos="zoom-in-up" data-aos-duration="1000">
       <h3 class="text-center">
         Lineas de Investigación
       </h3>
@@ -115,24 +110,21 @@ require_once "layouts/head.php";
   <section id="contact" class="contact section">
 
     <!-- Section Title -->
-    <div class="container section-title" data-aos="zoom-in-up" data-aos-duration="2000">
+    <div class="container section-title" data-aos="zoom-in-up" data-aos-duration="1000">
       <h2>Contacto</h2>
     </div><!-- End Section Title -->
-    <div class="container" data-aos="zoom-in-up" data-aos-duration="2000">
+    <div class="container" data-aos="zoom-in-up" data-aos-duration="1000">
 
       <div class="row gy-5 gx-lg-5">
 
         <div class="col-lg-4">
 
           <div class="info">
-            <h3>Get in touch</h3>
-            <p>Et id eius voluptates atque nihil voluptatem enim in tempore minima sit ad mollitia commodi minus.</p>
-
             <div class="info-item d-flex">
               <i class="bi bi-geo-alt flex-shrink-0"></i>
               <div>
-                <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <h4>Ubicación:</h4>
+                <p>Av. José Parres Arias 150, San José del Bajío, 45132 Zapopan, Jal.</p>
               </div>
             </div><!-- End Info Item -->
 
@@ -153,24 +145,17 @@ require_once "layouts/head.php";
                   </a>
                 </div>
               </div>
-            </div><!-- End Info Item -->
-
+            </div>
           </div>
-
         </div>
-
         <div class="col-lg-8">
           <iframe style="width: 100%; height: 400px;"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.2275720142297!2d-103.37895802391755!3d20.74156828083686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428af097b88abe3%3A0xbb90e158805bcd46!2sCUCSH%20Centro%20Universitario%20de%20Ciencias%20Sociales%20y%20Humanidades!5e0!3m2!1ses-419!2smx!4v1735757447906!5m2!1ses-419!2smx"
             frameborder="0" allowfullscreen=""></iframe>
-        </div><!-- End Contact Form -->
-
+        </div>
       </div>
-
     </div>
-
-  </section><!-- /Contact Section -->
-
+  </section>
 </main>
 
 <?php

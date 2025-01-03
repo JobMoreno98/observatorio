@@ -28,7 +28,7 @@ $consejo =
     ];
 ?>
 <main class="main">
-    <section id="estructura" class="section container features" data-aos="zoom-in-up" data-aos-duration="2000">
+    <section id="estructura" class="section container features" data-aos="zoom-in-up" data-aos-duration="1000">
         <ul class="nav nav-tabs d-flex flex-column flex-md-row justify-content-center">
 
             <li class="nav-item col-sm-12 col-md-4 col-lg-2 m-2">
@@ -51,7 +51,7 @@ $consejo =
         </ul>
 
         <div class="tab-content">
-            <div class="tab-pane fade active show" id="coordinadores" data-aos="zoom-in-up" data-aos-duration="2000">
+            <div class="tab-pane fade active show" id="coordinadores" data-aos="zoom-in-up" data-aos-duration="1000">
 
                 <div class="col-12" data-aos="fade-up" data-aos-delay="100">
                     <h3 class="text-center">Coordiandores</h3>
@@ -75,7 +75,7 @@ $consejo =
                     </div>
                 </div>
             </div>
-            <div class="tab-pane fade" id="observadores" data-aos="zoom-in-up" data-aos-duration="2000">
+            <div class="tab-pane fade" id="observadores" data-aos="zoom-in-up" data-aos-duration="1000">
                 <div class="col-12 ">
                     <h3 class="text-center">Red de Observadores</h3>
                     <?php
@@ -95,7 +95,7 @@ $consejo =
                 </div>
 
             </div>
-            <div class="tab-pane fade" id="consejo" data-aos="zoom-in-up" data-aos-duration="2000">
+            <div class="tab-pane fade" id="consejo" data-aos="zoom-in-up" data-aos-duration="1000">
                 <div class="col-12 ">
                     <h3 class="text-center">Consejo Consultivo</h3>
                     <div class=" d-flex flex-column flex-md-row  flex-wrap justify-content-center">

@@ -17,7 +17,7 @@ $capsulas = [
 ];
 ?>
 
-<section id="difusion" class="container" data-aos="zoom-in-up" data-aos-duration="2000">
+<section id="difusion" class="container" data-aos="zoom-in-up" data-aos-duration="1000">
     <h3 class="text-center">Cápsulas canal 44. Celia del Palacio Montiel <br>
         Se trasmiten quincenalmente los lunes a las 8:30 am.
     </h3>

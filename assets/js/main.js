@@ -1,9 +1,5 @@
 (function () {
   "use strict";
-
-  /**
-   * Apply .scrolled class to the body as the page is scrolled down
-   */
   function toggleScrolled() {
     const selectBody = document.querySelector('body');
     const selectHeader = document.querySelector('#header');
@@ -56,10 +52,10 @@
     window.addEventListener('load', () => {
       setTimeout(() => {
         preloader.classList.add('loaded');
-      }, 10);
+      }, 100);
       setTimeout(() => {
         preloader.remove();
-      }, 10);
+      }, 1000);
     });
   }
 

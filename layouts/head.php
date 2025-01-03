@@ -26,7 +26,6 @@
         <div class="container-fluid  d-flex align-items-center flex-column justify-content-between">
 
             <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0  border-bottom">
-                <!-- Uncomment the line below if you also wish to use an image logo -->
                 <!-- <img src="assets/img/logo.png" alt=""> -->
                 <h1 class="sitename text-uppercase d-block w-100 ">Observatorio de Libertad de Expresión y violencia contra
                     periodistas</h1>
