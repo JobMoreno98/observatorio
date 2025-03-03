@@ -1,19 +1,19 @@
 <?php
 require_once "layouts/head.php";
 $nombres = [
-    'Dra. Frida Viridiana Rodelo Amezcua' => ['foto' => 'Frida.jpg', 'archivo' => ''],
-    'Dra. María Elena Hernández Ramírez' => ['foto' => 'MARÍA ELENA.png', 'archivo' => ''],
-    'Dr. Darwin Franco Migues' => ['foto' => 'darwin.jpg', 'archivo' => ''],
-    'Dr. Armando Zacarías Castillo' => ['foto' => 'Armando Zacarías.jpeg', 'archivo' => ''],
-    'Dr. Diego Noel Ramos Rojas' => ['foto' => 'Diego.jpg', 'archivo' => ''],
-    'Dra. Gabriela Gómez Rodríguez' => ['foto' => null, 'archivo' => ''],
-    'Mtra. Elva Araceli Fabián González' => ['foto' => 'Elva Araceli Fabián.jpg', 'archivo' => ''],
-    'Mtro. Omar Guillermo García Santiago' => ['foto' => 'Omar García.jpg', 'archivo' => ''],
-    'Mtro. José Carlos Rodríguez Toral' => ['foto' => 'José Carlos Rodríguez Toral.jpg', 'archivo' => ''],
-    'Mtro. Julio Ríos Gutiérrez' => ['foto' => 'Julio Rios.jpg', 'archivo' => ''],
-    'Mtro. Javier Antonio Zepeda Orozco' => ['foto' => 'Javier Zepeda.jpeg', 'archivo' => ''],
-    'Mtra. Nancy Wendy Aceves Velázquez' => ['foto' => 'WendyAceves.jpeg', 'archivo' => ''],
-    'Mtra. Rosa Eugenia García' => ['foto' => 'Rosa Eugenia García Gómez.jpg', 'archivo' => ''],
+    'Dra. Frida Viridiana Rodelo Amezcua' => ['foto' => 'Frida.jpg', 'archivo' => 'Frida Viridiana Rodelo Amezcua.docx'],
+    'Dra. María Elena Hernández Ramírez' => ['foto' => 'MARÍA ELENA.png', 'archivo' => 'María Elena Hernández Ramírez.docx'],
+    'Dr. Darwin Franco Migues' => ['foto' => 'darwin.jpg', 'archivo' => 'Darwin Franco.docx'],
+    'Dr. Armando Zacarías Castillo' => ['foto' => 'Armando Zacarías.jpeg', 'archivo' => 'Armando Zacarías Castillo.docx'],
+    'Dr. Diego Noel Ramos Rojas' => ['foto' => 'Diego.jpg', 'archivo' => 'Diego Noel Ramos Rojas.docx'],
+    'Dra. Gabriela Gómez Rodríguez' => ['foto' => 'Gabriela Gomez.jpeg', 'archivo' => 'Gabriela Gómez Rodríguez.docx'],
+    'Mtra. Elva Araceli Fabián González' => ['foto' => 'Elva Araceli Fabián.jpg', 'archivo' => 'Elva Araceli Fabián González.docx'],
+    'Mtro. Omar Guillermo García Santiago' => ['foto' => 'Omar García.jpg', 'archivo' => 'Omar García.docx'],
+    'Mtro. José Carlos Rodríguez Toral' => ['foto' => 'José Carlos Rodríguez Toral.jpg', 'archivo' => 'José Carlos Rodríguez Toral.docx'],
+    'Mtro. Julio Ríos Gutiérrez' => ['foto' => 'Julio Rios.jpg', 'archivo' => 'Julio Ríos.docx'],
+    'Mtro. Javier Antonio Zepeda Orozco' => ['foto' => 'Javier Zepeda.jpeg', 'archivo' => 'Javier Zepeda.docx'],
+    'Mtra. Nancy Wendy Aceves Velázquez' => ['foto' => 'WendyAceves.jpeg', 'archivo' => 'Wendy Aceves Velázquez.docx'],
+    'Mtra. Rosa Eugenia García' => ['foto' => 'Rosa Eugenia García Gómez.jpg', 'archivo' => 'Rosa Eugenia García Gómez.docx'],
 ];
 
 $consejo =
@@ -57,11 +57,12 @@ $consejo =
                     <h3 class="text-center">Coordiandores</h3>
                     <div class="border p-2 rounded d-flex flex-column flex-md-row align-items-center mt-1  m-2">
                         <div>
-                            <img src="https://picsum.photos/200" alt="" style="max-width: 200px;" class="rounded me-2">
+                            <img src="./assets/img/estructura/img/Celia del Palacio.jpeg" alt="" style="max-width: 200px;" class="rounded me-2">
                         </div>
                         <div>
                             Dra. Celia del Palacio Montiel <br>
-                            Coordinadora
+                            Coordinadora <br>
+                            <a href="./assets/img/estructura/archivos/Celia del Palacio.docx">Enlace a curriculum</a>
                         </div>
                     </div>
                     <div class="border p-2 rounded  d-flex flex-column flex-md-row align-items-center mt-1  m-2">
@@ -70,7 +71,8 @@ $consejo =
                         </div>
                         <div>
                             Dr. Carlos Rafael Hernández Vargas <br>
-                            Secretario Técnico
+                            Secretario Técnico <br>
+                            <a href="./assets/img/estructura/archivos/Carlos Rafael Hernández Vargas.docx">Enlace a curriculum</a>
                         </div>
                     </div>
                 </div>
@@ -81,6 +83,7 @@ $consejo =
                     <?php
                     foreach ($nombres as $key => $value) {
                         $url = isset($value['foto']) ? "./assets/img/estructura/img/" . $value['foto'] : "https://picsum.photos/200";
+                        $archivo = isset($value['archivo']) ? "./assets/img/estructura/archivos/" . $value['archivo'] : "";
                     ?>
                         <div class="border p-2 rounded d-flex flex-column flex-md-row  align-items-center mt-1 m-2">
                             <div>
@@ -88,6 +91,7 @@ $consejo =
                             </div>
                             <div>
                                 <?php echo $key ?> <br>
+                                <a href="<?php echo  $archivo ?>" target="_blank" rel="noopener noreferrer">Enlace a curriculum</a>
                             </div>
                         </div>
                     <?php

@@ -15,9 +15,9 @@
     <link href="./assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="./assets/vendor/aos/aos.css" rel="stylesheet">
     <link href="./assets/css/main.css" rel="stylesheet">
-    <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="./assets/css/glightbox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        
 </head>
 
 
@@ -25,7 +25,7 @@
     <header id="header" class="header d-flex align-items-center sticky-top">
         <div class="container-fluid  d-flex align-items-center flex-column justify-content-between">
 
-            <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0  border-bottom">
+            <a href="./index.php" class="logo d-flex align-items-center me-auto me-xl-0  border-bottom">
                 <!-- <img src="assets/img/logo.png" alt=""> -->
                 <h1 class="sitename text-uppercase d-block w-100 ">Observatorio de Libertad de Expresión y violencia contra
                     periodistas</h1>
@@ -38,7 +38,7 @@
                     <li><a href="./index.php#about">Acerca de</a></li>
                     <li><a href="./estructura.php#estructura">Estructura</a></li>
                     <li><a href="./index.php#lineas">Lineas de Investiagción</a></li>
-                    <li><a href="">Pronunciamientos y comunicados</a></li>
+                    <li><a href="./comunicados.php">Pronunciamientos y comunicados</a></li>
                     <li><a href="./seminario#seminario">Seminario permanente</a></li>
                     <li><a href="./catedra.php#catedra">Cátedra de Libertad de Expresión</a></li>
                     <li><a href="./difusion#difusion">Difusión</a></li>

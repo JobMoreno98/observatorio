@@ -17,6 +17,7 @@
 <div id="preloader">
     <div class="line"></div>
 </div>
+<script src="./assets/js/glightbox.min.js"></script>
 <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="./assets/vendor/aos/aos.js"></script>
 <script src="./assets/js/main.js"></script>
@@ -25,6 +26,7 @@
 
 <script src="./assets/js/swiper-bundle.min.js"></script>
 <script src="./assets/js/slide.js"></script>
+
 
 </body>
 

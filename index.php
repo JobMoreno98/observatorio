@@ -4,20 +4,21 @@ require_once "layouts/head.php";
 
 
 
-<main class="main">
+<main class="main mt-3">
 
   <!-- Hero Section -->
-  <section id="hero" class="hero section">
+  <section id="hero" class="banner" style ="background: url('./assets/img/banner.jpg');    height: 320px;
+    background-size: contain;
+    background-repeat: no-repeat;" >
 
-    <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative"
+    <div class=" p-0 container d-flex flex-column justify-content-center align-items-center text-center position-relative"
       data-aos="zoom-out">
-      <h1>Bienvenido</h1>
     </div>
 
   </section>
 
   <!-- About Section -->
-  <section id="about" class="about section" data-aos="zoom-in-up" data-aos-duration="1000">
+  <section id="about"  class="about section" data-aos="zoom-in-up" data-aos-duration="1000">
 
     <!-- Section Title -->
     <div class="container" data-aos="zoom-in-up">

@@ -1,27 +1,24 @@
-const swiper = new Swiper('.slider-wrapper', {
-    loop: true,
-    grabCursor: true,
-    spaceBetween: 30,
-
-    // Pagination bullets
+var swiper = new Swiper(".mySwiper", {
     pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-        dynamicBullets: true
+        el: ".swiper-pagination",
     },
-
-    // Navigation arrows
     navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
     },
-
-    // Responsive breakpoints
     breakpoints: {
-        0: {
-            slidesPerView: 1
-        }
-
-    }
+        640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+        1024: {
+            slidesPerView:3,
+            spaceBetween: 40,
+        },
+        1300: {
+            slidesPerView: 4,
+            spaceBetween: 25,
+        },
+    },
 });
 

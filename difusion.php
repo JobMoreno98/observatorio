@@ -35,7 +35,7 @@ $capsulas = [
                     $url = isset($value['link']) ? '<a href="' . $value['link'] . '">Ver</a>' : 'Sin enlace.';
                 ?>
                     <tr>
-                        <td><?php echo "Cápsula " . $key + 1 . $value['titulo'] ?></td>
+                        <td><?php echo "<b>Cápsula " . $key + 1 . ":</b> " . $value['titulo'] ?></td>
                         <td><?php echo  $url ?></td>
                     </tr>
                 <?php
@@ -70,6 +70,10 @@ $capsulas = [
                 <tr>
                     <td>Entrevista sobre el Observatorio de Libertad de Expresión para la revista Comunicación y Sociedad.</td>
                     <td><a href="https://open.spotify.com/episode/4KcFWGB9XQ9a4BmZSOwQ4z?si=PWsP6gMBTHW6bk8ECAfHyA">Ver</a></td>
+                </tr>
+                <tr>
+                    <td>Rueda de prensa sobre los avances del Observatorio de Libertad de Expresión.</td>
+                    <td><a href="https://www.facebook.com/share/v/15mL1SJV5J/?mibextid=wwXIfr">Ver</a></td>
                 </tr>
             </tbody>
         </table>

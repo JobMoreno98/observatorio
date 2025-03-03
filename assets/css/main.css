@@ -2845,4 +2845,7 @@ section,
   .sitename  {
     font-size: 16pt !important;
   }
+  #hero{
+  height: auto !important;
+  }
 }

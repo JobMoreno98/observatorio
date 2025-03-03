@@ -132,6 +132,11 @@
     })
   }
   window.addEventListener('load', navmenuScrollspy);
+
   document.addEventListener('scroll', navmenuScrollspy);
+
+  const glightbox = GLightbox({
+    selector: '.glightbox'
+  });
 
 })();
