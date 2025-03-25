@@ -1,26 +1,15 @@
 <?php
 require_once "layouts/head.php";
 ?>
-
-
-
 <main class="main mt-3">
-
-  <!-- Hero Section -->
   <section id="hero" class="banner" style ="background: url('./assets/img/banner.jpg');    height: 320px;
     background-size: contain;
     background-repeat: no-repeat;" >
-
     <div class=" p-0 container d-flex flex-column justify-content-center align-items-center text-center position-relative"
       data-aos="zoom-out">
     </div>
-
   </section>
-
-  <!-- About Section -->
   <section id="about"  class="about section" data-aos="zoom-in-up" data-aos-duration="1000">
-
-    <!-- Section Title -->
     <div class="container" data-aos="zoom-in-up">
       <h2 class="section-title">Acerca de</h2>
       <p>El Observatorio de libertad de expresión y violencia contra periodistas nació en diciembre de 2021 en el seno
@@ -92,7 +81,7 @@ require_once "layouts/head.php";
   <section id="lineas">
     <div class="container" data-aos="zoom-in-up" data-aos-duration="1000">
       <h3 class="text-center">
-        Lineas de Investigación
+        Li¿íneas de Investigación
       </h3>
       <div>
         <ul>
@@ -107,19 +96,13 @@ require_once "layouts/head.php";
       </div>
     </div>
   </section>
-  <!-- Contact Section -->
   <section id="contact" class="contact section">
-
-    <!-- Section Title -->
     <div class="container section-title" data-aos="zoom-in-up" data-aos-duration="1000">
       <h2>Contacto</h2>
-    </div><!-- End Section Title -->
+    </div>
     <div class="container" data-aos="zoom-in-up" data-aos-duration="1000">
-
       <div class="row gy-5 gx-lg-5">
-
         <div class="col-lg-4">
-
           <div class="info">
             <div class="info-item d-flex">
               <i class="bi bi-geo-alt flex-shrink-0"></i>
@@ -127,16 +110,14 @@ require_once "layouts/head.php";
                 <h4>Ubicación:</h4>
                 <p>Av. José Parres Arias 150, San José del Bajío, 45132 Zapopan, Jal.</p>
               </div>
-            </div><!-- End Info Item -->
-
+            </div>
             <div class="info-item d-flex">
               <i class="bi bi-envelope flex-shrink-0"></i>
               <div>
                 <h4>Correo electrónico:</h4>
                 <p>observatoriolibertad.cucsh@academicos.udg.mx </p>
               </div>
-            </div><!-- End Info Item -->
-
+            </div>
             <div class="info-item d-flex align-items-center justify-content-center">
               <div>
                 <div class="social-links order-first order-lg-last mb-3 mb-lg-0">

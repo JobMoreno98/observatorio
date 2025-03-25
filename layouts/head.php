@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Observatorio de Libertad de Expresión y violencia contra periodistas</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
+    <link rel="shortcut icon" href="./assets/img/observatorio.ico" type="image/x-icon">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
         rel="stylesheet">
@@ -27,6 +27,7 @@
 
             <a href="./index.php" class="logo d-flex align-items-center me-auto me-xl-0  border-bottom">
                 <!-- <img src="assets/img/logo.png" alt=""> -->
+                 <img src="./assets/img/logo-sin-letras.svg" height="100%" alt="">
                 <h1 class="sitename text-uppercase d-block w-100 ">Observatorio de Libertad de Expresión y violencia contra
                     periodistas</h1>
                 <span>.</span>
@@ -37,7 +38,7 @@
                     <li><a href="./index.php#hero">Inicio<br></a></li>
                     <li><a href="./index.php#about">Acerca de</a></li>
                     <li><a href="./estructura.php#estructura">Estructura</a></li>
-                    <li><a href="./index.php#lineas">Lineas de Investiagción</a></li>
+                    <li><a href="./index.php#lineas">Líneas de Investiagción</a></li>
                     <li><a href="./comunicados.php">Pronunciamientos y comunicados</a></li>
                     <li><a href="./seminario#seminario">Seminario permanente</a></li>
                     <li><a href="./catedra.php#catedra">Cátedra de Libertad de Expresión</a></li>
