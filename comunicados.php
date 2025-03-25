@@ -1,8 +1,6 @@
 <?php
 require_once "layouts/head.php";
 ?>
-
-
 <section class="container" id="comunicados">
     <h3 class="text-center">Pronunciamientos y Comunicados</h3>
     <div>

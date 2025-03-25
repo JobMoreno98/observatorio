@@ -38,7 +38,7 @@
                     <li><a href="./index.php#about">Acerca de</a></li>
                     <li><a href="./estructura.php#estructura">Estructura</a></li>
                     <li><a href="./index.php#lineas">Líneas de Investiagción</a></li>
-                    <li><a href="./comunicados.php">Pronunciamientos y comunicados</a></li>
+                    <li><a href="./comunicados.php#comunicados">Pronunciamientos y comunicados</a></li>
                     <li><a href="./seminario.php#seminario">Seminario permanente</a></li>
                     <li><a href="./catedra.php#catedra">Cátedra de Libertad de Expresión</a></li>
                     <li><a href="./difusion#difusion">Difusión</a></li>

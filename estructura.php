@@ -33,7 +33,7 @@ $consejo =
 
             <li class="nav-item col-sm-12 col-md-4 col-lg-2 m-2">
                 <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#coordinadores">
-                    <h4 class="text-center">Coordiandores</h4>
+                    <h4 class="text-center">coordinadores</h4>
                 </a>
             </li><!-- End Tab 1 Nav -->
 
