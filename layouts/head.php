@@ -32,7 +32,6 @@
                     periodistas</h1>
                 <span>.</span>
             </a>
-
             <nav id="navmenu" class="navmenu">
                 <ul>
                     <li><a href="./index.php#hero">Inicio<br></a></li>
@@ -40,7 +39,7 @@
                     <li><a href="./estructura.php#estructura">Estructura</a></li>
                     <li><a href="./index.php#lineas">Líneas de Investiagción</a></li>
                     <li><a href="./comunicados.php">Pronunciamientos y comunicados</a></li>
-                    <li><a href="./seminario#seminario">Seminario permanente</a></li>
+                    <li><a href="./seminario.php#seminario">Seminario permanente</a></li>
                     <li><a href="./catedra.php#catedra">Cátedra de Libertad de Expresión</a></li>
                     <li><a href="./difusion#difusion">Difusión</a></li>
                     <li><a href="./index.php#contact">Contacto</a></li>

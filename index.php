@@ -2,22 +2,20 @@
 require_once "layouts/head.php";
 ?>
 <main class="main mt-3">
-  <section id="hero" class="banner" style ="background: url('./assets/img/banner.jpg');    height: 320px;
+  <section id="hero" class="banner" style="background: url('./assets/img/banner.jpg');    height: 320px;
     background-size: contain;
-    background-repeat: no-repeat;" >
+    background-repeat: no-repeat;">
     <div class=" p-0 container d-flex flex-column justify-content-center align-items-center text-center position-relative"
       data-aos="zoom-out">
     </div>
   </section>
-  <section id="about"  class="about section" data-aos="zoom-in-up" data-aos-duration="1000">
+  <section id="about" class="about section" data-aos="zoom-in-up" data-aos-duration="1000">
     <div class="container" data-aos="zoom-in-up">
       <h2 class="section-title">Acerca de</h2>
       <p>El Observatorio de libertad de expresión y violencia contra periodistas nació en diciembre de 2021 en el seno
         del Departamento de Sociología del Centro Universitario de Ciencias Sociales y Humanidades y tiene como
         objetivos los siguientes:
       </p>
-
-
       <ul>
         <li> <b>Generar indicadores</b>
           que sean de utilidad tanto a académicos como a periodistas, tomadores de decisiones y
@@ -81,7 +79,7 @@ require_once "layouts/head.php";
   <section id="lineas">
     <div class="container" data-aos="zoom-in-up" data-aos-duration="1000">
       <h3 class="text-center">
-        Li¿íneas de Investigación
+        Líneas de Investigación
       </h3>
       <div>
         <ul>
@@ -108,14 +106,14 @@ require_once "layouts/head.php";
               <i class="bi bi-geo-alt flex-shrink-0"></i>
               <div>
                 <h4>Ubicación:</h4>
-                <p>Av. José Parres Arias 150, San José del Bajío, 45132 Zapopan, Jal.</p>
+                <p>Av. José Parres Arias #150, Edificio C, piso 3, San José del Bajío, 45132 Zapopan, Jal.</p>
               </div>
             </div>
             <div class="info-item d-flex">
               <i class="bi bi-envelope flex-shrink-0"></i>
               <div>
                 <h4>Correo electrónico:</h4>
-                <p>observatoriolibertad.cucsh@academicos.udg.mx </p>
+                <p>observatoriolibertad.cucsh@academicos.udg.mx</p>
               </div>
             </div>
             <div class="info-item d-flex align-items-center justify-content-center">
