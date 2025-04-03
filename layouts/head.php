@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Observatorio de Libertad de Expresión y violencia contra periodistas</title>
+    <title>Observatorio sobre la Libertad de Expresión y violencia contra periodistas</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <link rel="shortcut icon" href="./assets/img/observatorio.ico" type="image/x-icon">
@@ -28,7 +28,7 @@
             <a href="./index.php" class="logo d-flex align-items-center me-auto me-xl-0  border-bottom">
                 <!-- <img src="assets/img/logo.png" alt=""> -->
                  <img src="./assets/img/logo-sin-letras.svg" height="100%" alt="">
-                <h1 class="sitename text-uppercase d-block w-100 ">Observatorio de Libertad de Expresión y violencia contra
+                <h1 class="sitename text-uppercase d-block w-100 ">Observatorio sobre la Libertad de Expresión y violencia contra
                     periodistas</h1>
                 <span>.</span>
             </a>
@@ -37,11 +37,11 @@
                     <li><a href="./index.php#hero">Inicio<br></a></li>
                     <li><a href="./index.php#about">Acerca de</a></li>
                     <li><a href="./estructura.php#estructura">Estructura</a></li>
-                    <li><a href="./index.php#lineas">Líneas de Investiagción</a></li>
+                    <li><a href="./index.php#lineas">Líneas de investigación</a></li>
                     <li><a href="./comunicados.php#comunicados">Pronunciamientos y comunicados</a></li>
                     <li><a href="./seminario.php#seminario">Seminario permanente</a></li>
                     <li><a href="./catedra.php#catedra">Cátedra de Libertad de Expresión</a></li>
-                    <li><a href="./difusion#difusion">Difusión</a></li>
+                    <li><a href="./difusion.php#difusion">Difusión</a></li>
                     <li><a href="./index.php#contact">Contacto</a></li>
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>

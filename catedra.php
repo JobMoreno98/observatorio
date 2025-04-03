@@ -26,7 +26,7 @@ require_once "layouts/head.php";
 
         <div class="col-ms-12 col-lg-6 mt-3">
             <div class="table-responsive">
-                <table class="table w-100 " style="font-size: 8pt;;">
+                <table class="table w-100 " style="font-size: 11pt;">
                     <thead>
                         <tr>
                             <th>Título</th>

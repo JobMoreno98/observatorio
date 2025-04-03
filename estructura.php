@@ -7,13 +7,13 @@ $nombres = [
     'Dr. Armando Zacarías Castillo' => ['foto' => 'Armando Zacarías.jpeg', 'archivo' => 'Armando Zacarías Castillo.docx'],
     'Dr. Diego Noel Ramos Rojas' => ['foto' => 'Diego.jpg', 'archivo' => 'Diego Noel Ramos Rojas.docx'],
     'Dra. Gabriela Gómez Rodríguez' => ['foto' => 'Gabriela Gomez.jpeg', 'archivo' => 'Gabriela Gómez Rodríguez.docx'],
-    'Mtra. Elva Araceli Fabián González' => ['foto' => 'Elva Araceli Fabián.jpg', 'archivo' => 'Elva Araceli Fabián González.docx'],
+    'Dra. Elva Araceli Fabián González' => ['foto' => 'Elva Araceli Fabián.jpg', 'archivo' => 'Elva Araceli Fabián González.docx'],
     'Mtro. Omar Guillermo García Santiago' => ['foto' => 'Omar García.jpg', 'archivo' => 'Omar García.docx'],
     'Mtro. José Carlos Rodríguez Toral' => ['foto' => 'José Carlos Rodríguez Toral.jpg', 'archivo' => 'José Carlos Rodríguez Toral.docx'],
     'Mtro. Julio Ríos Gutiérrez' => ['foto' => 'Julio Rios.jpg', 'archivo' => 'Julio Ríos.docx'],
     'Mtro. Javier Antonio Zepeda Orozco' => ['foto' => 'Javier Zepeda.jpeg', 'archivo' => 'Javier Zepeda.docx'],
     'Mtra. Nancy Wendy Aceves Velázquez' => ['foto' => 'WendyAceves.jpeg', 'archivo' => 'Wendy Aceves Velázquez.docx'],
-    'Mtra. Rosa Eugenia García' => ['foto' => 'Rosa Eugenia García Gómez.jpg', 'archivo' => 'Rosa Eugenia García Gómez.docx'],
+    'Mtra. Rosa Eugenia García Gómez ' => ['foto' => 'Rosa Eugenia García Gómez.jpg', 'archivo' => 'Rosa Eugenia García Gómez.docx'],
 ];
 
 $consejo =
@@ -33,7 +33,7 @@ $consejo =
 
             <li class="nav-item col-sm-12 col-md-4 col-lg-2 m-2">
                 <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#coordinadores">
-                    <h4 class="text-center">coordinadores</h4>
+                    <h4 class="text-center">Coordinadores</h4>
                 </a>
             </li><!-- End Tab 1 Nav -->
 
@@ -62,6 +62,7 @@ $consejo =
                         <div>
                             Dra. Celia del Palacio Montiel <br>
                             Coordinadora <br>
+                            Correo: <a href="mailto:celia.delpalacio@academicos.udg.mx">celia.delpalacio@academicos.udg.mx</a> <br>
                             <a href="./assets/img/estructura/archivos/Celia del Palacio.docx">Enlace a curriculum</a>
                         </div>
                     </div>
@@ -71,7 +72,7 @@ $consejo =
                         </div>
                         <div>
                             Dr. Carlos Rafael Hernández Vargas <br>
-                            Secretario Técnico <br>
+                            Secretario Técnico <br> Correo: <a href="mailto:carlos.hvargas@academicos.udg.mx">carlos.hvargas@academicos.udg.mx</a> <br>
                             <a href="./assets/img/estructura/archivos/Carlos Rafael Hernández Vargas.docx">Enlace a curriculum</a>
                         </div>
                     </div>

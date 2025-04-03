@@ -13,8 +13,7 @@ require_once "layouts/head.php";
     <div class="container" data-aos="zoom-in-up">
       <h2 class="section-title">Acerca de</h2>
       <p>El Observatorio de libertad de expresión y violencia contra periodistas nació en diciembre de 2021 en el seno
-        del Departamento de Sociología del Centro Universitario de Ciencias Sociales y Humanidades y tiene como
-        objetivos los siguientes:
+        del Departamento de Sociología del Centro Universitario de Ciencias Sociales y Humanidades y tiene tiene los siguientes objetivos:
       </p>
       <ul>
         <li> <b>Generar indicadores</b>
