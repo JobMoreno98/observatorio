@@ -41,7 +41,7 @@ require_once "layouts/head.php";
                                 Director Regional de ARTICLE 19 México para México y Centroamérica
                             </td>
                             <td><a href="https://fb.watch/j7NsZxgDkJ/">https://fb.watch/j7NsZxgDkJ/</a></td>
-                            <td rowspan="2" style="max-width:200px;">
+                            <td rowspan="2" style="max-width:200px;vertical-align: middle;">
                                 <a href="https://www.cfpdudgvirtual.org/regina-martinez-violencia-y-periodismo-en-veracruz/">Enlace 1</a>
                                 <br>
                                 <a href="https://www.debate.com.mx/guadalajara/Realizara-UdeG-en-Jalisco-catedra-sobre-periodistas-asesinados-en-Mexico-Comienzan-con-Veracruz--20220317-0208.html">Enlace 2</a>
