@@ -8,6 +8,7 @@ $nombres = [
     'Dr. Diego Noel Ramos Rojas' => ['foto' => 'Diego.jpg', 'archivo' => 'Diego Noel Ramos Rojas.docx'],
     'Dra. Gabriela Gómez Rodríguez' => ['foto' => 'Gabriela Gomez.jpeg', 'archivo' => 'Gabriela Gómez Rodríguez.docx'],
     'Dra. Elva Araceli Fabián González' => ['foto' => 'Elva Araceli Fabián.jpg', 'archivo' => 'Elva Araceli Fabián González.docx'],
+    'Dra. Elba Díaz Cerveró' => ['foto' => 'Elba Díaz Cerveró.jpg', 'archivo' => 'Elba Díaz Cerveró.docx'],
     'Mtro. Omar Guillermo García Santiago' => ['foto' => 'Omar García.jpg', 'archivo' => 'Omar García.docx'],
     'Mtro. José Carlos Rodríguez Toral' => ['foto' => 'José Carlos Rodríguez Toral.jpg', 'archivo' => 'José Carlos Rodríguez Toral.docx'],
     'Mtro. Julio Ríos Gutiérrez' => ['foto' => 'Julio Rios.jpg', 'archivo' => 'Julio Ríos.docx'],
