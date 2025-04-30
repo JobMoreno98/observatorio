@@ -15,6 +15,7 @@ $nombres = [
     'Mtro. Javier Antonio Zepeda Orozco' => ['foto' => 'Javier Zepeda.jpeg', 'archivo' => 'Javier Zepeda.docx'],
     'Mtra. Nancy Wendy Aceves Velázquez' => ['foto' => 'WendyAceves.jpeg', 'archivo' => 'Wendy Aceves Velázquez.docx'],
     'Mtra. Rosa Eugenia García Gómez ' => ['foto' => 'Rosa Eugenia García Gómez.jpg', 'archivo' => 'Rosa Eugenia García Gómez.docx'],
+    'Mtro. Antonio Ceja Mercado' => ['foto' => 'Antonio Ceja.jpeg', 'archivo' => 'Antonio Ceja Mercado.docx']
 ];
 
 $consejo =
