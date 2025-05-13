@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -17,17 +18,16 @@
     <link href="./assets/css/main.css" rel="stylesheet">
     <link href="./assets/css/glightbox.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-        
+
 </head>
 
 
 <body class="index-page">
-    <header id="header" class="header d-flex align-items-center sticky-top">
-        <div class="container-fluid  d-flex align-items-center flex-column justify-content-between">
-
-            <a href="./index.php" class="logo d-flex align-items-center me-auto me-xl-0  border-bottom">
+    <header id="header" class="header d-flex align-items-center  sticky-top">
+        <div class="container-fluid  d-flex align-items-center flex-column justify-content-between" >
+            <a href="./index.php" class="logo d-flex align-items-center me-auto me-xl-0 flex-column flex-md-row border-bottom" >
                 <!-- <img src="assets/img/logo.png" alt=""> -->
-                 <img src="./assets/img/logo-sin-letras.svg" height="100%" alt="">
+                <img src="./assets/img/logo-sin-letras.svg" height="100%" alt="">
                 <h1 class="sitename text-uppercase d-block w-100 ">Observatorio sobre la Libertad de Expresión y violencia contra
                     periodistas</h1>
                 <span>.</span>
