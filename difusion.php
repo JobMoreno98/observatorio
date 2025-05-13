@@ -78,6 +78,13 @@ $capsulas = [
             </tbody>
         </table>
     </div>
+    <div>
+        <h3 class="text-center">Libros publicados</h3>
+        <a href="http://www.publicaciones.cucsh.udg.mx/kiosko/2023/Estado%20de%20la%20libertad%20en%20Jalisco.pdf">
+            <img src="./assets/archivos/Portada Estado Libertad de Expresion.jpg" alt="" style="aspect-ratio: 1/1;width:250px; object-fit:contain;">
+            <span>Ver libro</span>
+        </a>
+    </div>
 </section>
 
 <?php
