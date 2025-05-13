@@ -1,21 +1,21 @@
 <?php
 require_once "layouts/head.php";
 $nombres = [
-    'Dra. Frida Viridiana Rodelo Amezcua' => ['foto' => 'Frida.jpg', 'archivo' => 'Frida Viridiana Rodelo Amezcua.docx'],
-    'Dra. María Elena Hernández Ramírez' => ['foto' => 'MARÍA ELENA.png', 'archivo' => 'María Elena Hernández Ramírez.docx'],
-    'Dr. Darwin Franco Migues' => ['foto' => 'darwin.jpg', 'archivo' => 'Darwin Franco.docx'],
-    'Dr. Armando Zacarías Castillo' => ['foto' => 'Armando Zacarías.jpeg', 'archivo' => 'Armando Zacarías Castillo.docx'],
-    'Dr. Diego Noel Ramos Rojas' => ['foto' => 'Diego.jpg', 'archivo' => 'Diego Noel Ramos Rojas.docx'],
-    'Dra. Gabriela Gómez Rodríguez' => ['foto' => 'Gabriela Gomez.jpeg', 'archivo' => 'Gabriela Gómez Rodríguez.docx'],
-    'Dra. Elva Araceli Fabián González' => ['foto' => 'Elva Araceli Fabián.jpg', 'archivo' => 'Elva Araceli Fabián González.docx'],
-    'Dra. Elba Díaz Cerveró' => ['foto' => 'Elba Díaz Cerveró.jpg', 'archivo' => 'Elba Díaz Cerveró.docx'],
-    'Mtro. Omar Guillermo García Santiago' => ['foto' => 'Omar García.jpg', 'archivo' => 'Omar García.docx'],
-    'Mtro. José Carlos Rodríguez Toral' => ['foto' => 'José Carlos Rodríguez Toral.jpg', 'archivo' => 'José Carlos Rodríguez Toral.docx'],
-    'Mtro. Julio Ríos Gutiérrez' => ['foto' => 'Julio Rios.jpg', 'archivo' => 'Julio Ríos.docx'],
-    'Mtro. Javier Antonio Zepeda Orozco' => ['foto' => 'Javier Zepeda.jpeg', 'archivo' => 'Javier Zepeda.docx'],
-    'Mtra. Nancy Wendy Aceves Velázquez' => ['foto' => 'WendyAceves.jpeg', 'archivo' => 'Wendy Aceves Velázquez.docx'],
-    'Mtra. Rosa Eugenia García Gómez ' => ['foto' => 'Rosa Eugenia García Gómez.jpg', 'archivo' => 'Rosa Eugenia García Gómez.docx'],
-    'Mtro. Antonio Ceja Mercado' => ['foto' => 'Antonio Ceja.jpeg', 'archivo' => 'Antonio Ceja Mercado.docx']
+    'Dra. Frida Viridiana Rodelo Amezcua' => ['foto' => 'Frida.jpg', 'archivo' => 'Frida Viridiana Rodelo Amezcua.pdf'],
+    'Dra. María Elena Hernández Ramírez' => ['foto' => 'MARÍA ELENA.png', 'archivo' => 'María Elena Hernández Ramírez.pdf'],
+    'Dr. Darwin Franco Migues' => ['foto' => 'darwin.jpg', 'archivo' => 'Darwin Franco.pdf'],
+    'Dr. Armando Zacarías Castillo' => ['foto' => 'Armando Zacarías.jpeg', 'archivo' => 'Armando Zacarías Castillo.pdf'],
+    'Dr. Diego Noel Ramos Rojas' => ['foto' => 'Diego.jpg', 'archivo' => 'Diego Noel Ramos Rojas.pdf'],
+    'Dra. Gabriela Gómez Rodríguez' => ['foto' => 'Gabriela Gomez.jpeg', 'archivo' => 'Gabriela Gómez Rodríguez.pdf'],
+    'Dra. Elva Araceli Fabián González' => ['foto' => 'Elva Araceli Fabián.jpg', 'archivo' => 'Elva Araceli Fabián González.pdf'],
+    'Dra. Elba Díaz Cerveró' => ['foto' => 'Elba Díaz Cerveró.jpg', 'archivo' => 'Elba Díaz Cerveró.pdf'],
+    'Mtro. Omar Guillermo García Santiago' => ['foto' => 'Omar García.jpg', 'archivo' => 'Omar García.pdf'],
+    'Mtro. José Carlos Rodríguez Toral' => ['foto' => 'José Carlos Rodríguez Toral.jpg', 'archivo' => 'José Carlos Rodríguez Toral.pdf'],
+    'Mtro. Julio Ríos Gutiérrez' => ['foto' => 'Julio Rios.jpg', 'archivo' => 'Julio Ríos.pdf'],
+    'Mtro. Javier Antonio Zepeda Orozco' => ['foto' => 'Javier Zepeda.jpeg', 'archivo' => 'Javier Zepeda.pdf'],
+    'Mtra. Nancy Wendy Aceves Velázquez' => ['foto' => 'WendyAceves.jpeg', 'archivo' => 'Wendy Aceves Velázquez.pdf'],
+    'Mtra. Rosa Eugenia García Gómez ' => ['foto' => 'Rosa Eugenia García Gómez.jpg', 'archivo' => 'Rosa Eugenia García Gómez.pdf'],
+    'Mtro. Antonio Ceja Mercado' => ['foto' => 'Antonio Ceja.jpeg', 'archivo' => 'Antonio Ceja Mercado.pdf']
 ];
 
 $consejo =
@@ -65,7 +65,7 @@ $consejo =
                             Dra. Celia del Palacio Montiel <br>
                             Coordinadora <br>
                             Correo: <a href="mailto:celia.delpalacio@academicos.udg.mx">celia.delpalacio@academicos.udg.mx</a> <br>
-                            <a href="./assets/img/estructura/archivos/Celia del Palacio.docx">Enlace a curriculum</a>
+                            <a href="./assets/img/estructura/archivos/Celia del Palacio.pdf">Enlace a curriculum</a>
                         </div>
                     </div>
                     <div class="border p-2 rounded  d-flex flex-column flex-md-row align-items-center mt-1  m-2">
@@ -75,7 +75,7 @@ $consejo =
                         <div>
                             Dr. Carlos Rafael Hernández Vargas <br>
                             Secretario Técnico <br> Correo: <a href="mailto:carlos.hvargas@academicos.udg.mx">carlos.hvargas@academicos.udg.mx</a> <br>
-                            <a href="./assets/img/estructura/archivos/Carlos Rafael Hernández Vargas.docx">Enlace a curriculum</a>
+                            <a href="./assets/img/estructura/archivos/Carlos Rafael Hernández Vargas.pdf">Enlace a curriculum</a>
                         </div>
                     </div>
                 </div>
