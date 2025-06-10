@@ -1,9 +1,39 @@
 <?php
 require_once "layouts/head.php";
+$json = file_get_contents('catedras.json');
+$data = json_decode($json, true);
 ?>
 
 <main class="main">
     <section id="catedra" class="section container  d-flex flex-column flex-lg-row justify-content-center justify-content-md-around flex-wrap align-items-center">
+        <div>
+            <?php
+            foreach ($data as $nombreCatedra => $eventos) {
+                echo "<h2>" . htmlspecialchars($nombreCatedra) . "</h2>";
+
+                foreach ($eventos as $index => $evento) {
+                    echo "<div class='evento'>";
+
+                    // Título como enlace a detalle.php
+                    $url = "detalle.php?catedra=" . urlencode($nombreCatedra) . "&evento=" . $index;
+                    echo "<h4><a href='" . htmlspecialchars($url) . "'>" . htmlspecialchars($evento['titulo']) . "</a></h4>";
+
+                    // Fragmento corto del texto (primeros 150 caracteres)
+                    $texto = strip_tags($evento['texto']);
+                    $fragmento = mb_substr($texto, 0, 150) . (mb_strlen($texto) > 150 ? '...' : '');
+                    echo "<p>" . htmlspecialchars($fragmento) . "</p>";
+
+                    // Fecha
+                    echo "<p><strong>Fecha:</strong> " . htmlspecialchars($evento['fecha']) . "</p>";
+                    echo "</div><hr/>";
+                }
+            }
+            ?>
+
+
+        </div>
+
+        <!-- 
         <div class="col-ms-12 col-lg-5 mt-3">
             <div class="container swiper" style="height: 520px">
                 <div class="slider-wrapper h-100 w-100 m-auto">
@@ -69,6 +99,7 @@ require_once "layouts/head.php";
                 </table>
             </div>
         </div>
+        -->
     </section>
 </main>
 

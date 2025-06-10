@@ -61,7 +61,7 @@ $consejo =
                         <div>
                             <img src="./assets/img/estructura/img/Celia del Palacio.jpeg" alt="" style="max-width: 200px;" class="rounded me-2">
                         </div>
-                        <div>
+                        <div> 
                             Dra. Celia del Palacio Montiel <br>
                             Coordinadora <br>
                             Correo: <a href="mailto:celia.delpalacio@academicos.udg.mx">celia.delpalacio@academicos.udg.mx</a> <br>
