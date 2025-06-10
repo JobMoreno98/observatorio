@@ -26,12 +26,14 @@ $evento = $data[$catedra][$eventoIndex];
         <p><a class="enlace" href="<?= htmlspecialchars($evento['enlace']) ?>" target="_blank">Ver video o enlace</a></p>
     <?php endif; ?>
 
-    <div class="texto"><?= nl2br(htmlspecialchars($evento['texto'])) ?></div>
+    <div class="texto" style="text-align:justify;"> <?= nl2br(htmlspecialchars($evento['texto'])) ?></div>
 
     <?php if (!empty($evento['foto']) && is_array($evento['foto'])): ?>
-        <div class="fotos">
+        <div class="fotos d-flex flex-column flex-md-row ">
             <?php foreach ($evento['foto'] as $foto): ?>
-                <img src="img/<?= htmlspecialchars($foto) ?>" alt="Foto del evento" />
+                <div class="m-1">
+                    <img src="./assets/img/catedra-2024/<?= htmlspecialchars($foto) ?>" style="max-width:250px;aspect-ratio:1/1;object-fit: cover;" alt="Foto del evento" />
+                </div>
             <?php endforeach; ?>
         </div>
     <?php endif; ?>
