@@ -1,6 +1,7 @@
 {
     "Cátedra sobre Libertad de Expresión 2024": [
         {
+            "portada": "catedra-2024.jpeg",
             "titulo": "Nuevo gobierno ¿Nuevas propuestas de defensa a la libertad de expresión y contra la violencia a periodistas?",
             "fecha": "01 de diciembre 2024",
             "enlace": "https://www.youtube.com/watch?v=FA67NlHcyNk",
@@ -13,6 +14,7 @@
     ],
     "Cátedra Javier Valdez 2023": [
         {
+            "portada": "catedra-2023.jpeg",
             "titulo": "Estado de la libertad de expresión y violencia contra periodistas en México / Mesa: Sobre la violencia contra los periodistas en Sinaloa. El trabajo de Javier Valdez",
             "fecha": "26 de noviembre 2023",
             "enlace": "https://youtu.be/Jeyjd78c9FM?si=pMjRRScPfDgNrlsa",
@@ -25,6 +27,7 @@
     ],
     "Cátedra Regina Martínez 2022": [
         {
+            "portada": null,
             "titulo": "Estado de la libertad de expresión en México / Mesa: Regina Martínez, Violencia y Periodismo en Veracruz",
             "fecha": "28 de abril 2022",
             "enlace": "https://fb.watch/j7NsZxgDkJ/",
