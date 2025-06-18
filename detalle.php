@@ -29,10 +29,12 @@ $evento = $data[$catedra][$eventoIndex];
     <div class="texto" style="text-align:justify;"> <?= nl2br(htmlspecialchars($evento['texto'])) ?></div>
 
     <?php if (!empty($evento['foto']) && is_array($evento['foto'])): ?>
-        <div class="fotos d-flex flex-column flex-md-row ">
+        <div class="fotos d-flex flex-column flex-md-row flex-wrap">
             <?php foreach ($evento['foto'] as $foto): ?>
                 <div class="m-1">
-                    <img src="./assets/img/catedra-2024/<?= htmlspecialchars($foto) ?>" style="max-width:250px;aspect-ratio:1/1;object-fit: cover;" alt="Foto del evento" />
+                    <a href="./assets/img/<?= htmlspecialchars($foto) ?>">
+                        <img src="./assets/img/<?= htmlspecialchars($foto) ?>" data-gallery="gallery1" class="glightbox" style="max-width:250px;aspect-ratio:1/1;object-fit: cover;" alt="Foto del evento" />
+                    </a>
                 </div>
             <?php endforeach; ?>
         </div>

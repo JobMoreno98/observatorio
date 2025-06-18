@@ -27,6 +27,14 @@
 <script src="./assets/js/swiper-bundle.min.js"></script>
 <script src="./assets/js/slide.js"></script>
 
+<script>
+    const lightbox = GLightbox({
+        touchNavigation: true,
+        loop: true,
+        autoplayVideos: true
+    });
+</script>
+
 
 </body>
 
