@@ -29,7 +29,7 @@ $evento = $data[$catedra][$eventoIndex];
     <div class="texto" style="text-align:justify;"> <?= nl2br(htmlspecialchars($evento['texto'])) ?></div>
 
     <?php if (!empty($evento['foto']) && is_array($evento['foto'])): ?>
-        <div class="fotos d-flex flex-column flex-md-row flex-wrap">
+        <div class="fotos d-flex flex-column flex-md-row flex-wrap align-items-center">
             <?php foreach ($evento['foto'] as $foto): ?>
                 <div class="m-1">
                     <a href="./assets/img/<?= htmlspecialchars($foto) ?>">
