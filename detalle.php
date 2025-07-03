@@ -44,5 +44,6 @@ $evento = $data[$catedra][$eventoIndex];
 
 </section>
 <?php
+
 require_once "layouts/footer.php";
 ?>
