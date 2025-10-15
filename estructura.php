@@ -61,13 +61,14 @@ $consejo =
                         <div>
                             <img src="./assets/img/estructura/img/Celia del Palacio.jpeg" alt="" style="max-width: 200px;" class="rounded me-2">
                         </div>
-                        <div> 
+                        <div>
                             Dra. Celia del Palacio Montiel <br>
                             Coordinadora <br>
                             Correo: <a href="mailto:celia.delpalacio@academicos.udg.mx">celia.delpalacio@academicos.udg.mx</a> <br>
                             <a href="./assets/img/estructura/archivos/Celia del Palacio.pdf">Enlace a curriculum</a>
                         </div>
                     </div>
+                    <!--
                     <div class="border p-2 rounded  d-flex flex-column flex-md-row align-items-center mt-1  m-2">
                         <div>
                             <img src="./assets/img/estructura/img/Carlos Rafael Hernandez.jpeg" alt="" style="max-width: 200px;" class="rounded me-2">
@@ -78,6 +79,7 @@ $consejo =
                             <a href="./assets/img/estructura/archivos/Carlos Rafael Hernández Vargas.pdf">Enlace a curriculum</a>
                         </div>
                     </div>
+                    -->
                 </div>
             </div>
             <div class="tab-pane fade" id="observadores" data-aos="zoom-in-up" data-aos-duration="1000">

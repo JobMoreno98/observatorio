@@ -16,29 +16,12 @@ require_once "layouts/head.php";
         del Departamento de Sociología del Centro Universitario de Ciencias Sociales y Humanidades y tiene tiene los siguientes objetivos:
       </p>
       <ul>
-        <li> <b>Generar indicadores</b>
-          que sean de utilidad tanto a académicos como a periodistas, tomadores de decisiones y
-          creadores de políticas públicas, sobre libertad de expresión y violencia contra periodistas en México y en
-          particular en Jalisco. Esto a través de una actividad permanente de elaboración de insumos, situación en
-          contextos y evaluación de la libertad de expresión y de los espacios cívicos regionales.
+        <li>Producir reportes periódicos sobre el estado que guarda la libertad de expresión y la protección del ejercicio periodístico preferentemente en Jalisco y México, pero no limitado a ellos.
         </li>
-        <li><b>Visibilizar y denunciar</b> agresiones contra personas periodistas y defensoras de derechos humanos en
-          México
-          y
-          en particular en Jalisco, a través de pronunciamientos y comunicados.</li>
-        <li><b>Ser un espacio de articulación, vinculación y difusión</b> de los esfuerzos que ya se llevan a cabo en
-          otras
-          áreas de la Universidad de Guadalajara, reuniendo la investigación sobre los obstáculos al ejercicio de la
-          libertad de expresión, así como los problemas de violencia y precarización que sufren los periodistas en
-          México y en particular en Jalisco. En este mismo sentido, se pretende establecer y mantener contacto entre
-          la
-          academia, personas periodistas y organizaciones y redes que han realizado ya acciones específicas y han
-          sistematizado reflexiones sobre estos problemas a fin de hacer la difusión pertinente sobre el tema.</li>
-        <li><b>Coadyuvar a la profesionalización</b> de las personas periodistas que sufren mayor precariedad y
-          desigualdades
-          y
-          por tanto se encuentran más vulnerables en zonas silenciadas o lejanas.
-        </li>
+        <li>Realizar investigación científica continua sobre problemas y procesos que afectan la libertad de expresión y la función del periodismo.</li>
+        <li>Elaborar recomendaciones generales y específicas dirigidas a instituciones públicas y la sociedad en general que permitan proteger y promover la libertad de expresión.</li>
+        <li>Realizar difusión permanente sobre el valor de la libertad de expresión y de preservación de la memoria histórica de periodistas asesinados organizando, para tal efecto, entre otras iniciativas, una cátedra.</li>
+        <li>Impulsar la formación y capacitación en materia de libertad de expresión y protección del periodismo. </li>
       </ul>
       <div data-aos="zoom-in-up" data-aos-duration="1000">
         <h3 class="section-title">Actividades Centrales del Observatorio</h3>
