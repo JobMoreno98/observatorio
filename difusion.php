@@ -1,100 +1,119 @@
 <?php
 require_once "layouts/head.php";
-$capsulas = [
-    ['titulo' => '¿Cómo entender la violencia contra periodistas desde la academia?', 'link' => 'https://youtu.be/2SHnDl-_9f0'],
-    ['titulo' => 'Derecho a la información y acoso judicial a periodistas', 'link' => 'https://youtu.be/FSsNWx9pse4'],
-    ['titulo' => 'Peligrosa intolerancia ante la critica.', 'link' => 'https://youtu.be/-0SHQAPD5iY'],
-    ['titulo' => 'La libertad de expresión también limitada en Jalisco'],
-    ['titulo' => 'Nueva oportunidad para abatir la impunidad en crímenes contra periodistas ', 'link' => 'https://youtu.be/cXxhoYJ3I0M'],
-    ['titulo' => 'Estigmatización a periodistas. ', 'link' => 'https://youtu.be/1H_9UC8wDlw'],
-    ['titulo' => 'El bato. Javier Valdez a través de sus amigos', 'link' => 'https://youtu.be/5hlDpqE-TYQ'],
-    ['titulo' => 'Balance de la violencia contra periodistas en 2022.'],
-    ['titulo' => 'Inicio de año violento para periodistas', 'link' => 'https://youtu.be/Bj7MGPK_Ir0'],
-    ['titulo' => 'Proteger el espacio cívico, obligación de los gobernantes.', 'link' => 'https://youtu.be/83-z6VJee1Q'],
-    ['titulo' => 'Colectivos de periodistas en México como estrategias de  resistencia y resiliencia. 6 de febrero', 'link' => 'https://youtu.be/GVnWESbaiTA'],
-    ['titulo' => 'Periodistas y personas defensoras de derechos ambientales siguen en riesgo', 'link' => 'https://youtu.be/7l_X83smUjU'],
-    ['titulo' => '#8deMarzo. La violencia contra las mujeres periodistas', 'link' => 'https://youtu.be/Zco456ZfekM'],
-];
+$data = json_decode(file_get_contents('capsulas.json'), true);
+$años = array_keys($data);
 ?>
 
-<section id="difusion" class="container" data-aos="zoom-in-up" data-aos-duration="1000">
+<section id="difusion" class="section container features" data-aos="zoom-in-up" data-aos-duration="1000">
     <h3 class="text-center">Cápsulas canal 44. Celia del Palacio Montiel <br>
         Se trasmiten quincenalmente los lunes a las 8:30 am.
     </h3>
-    <div class="table-responsive">
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>Título</th>
-                    <th>Enlace</th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php
-                foreach ($capsulas as $key => $value) {
-                    $url = isset($value['link']) ? '<a href="' . $value['link'] . '">Ver</a>' : 'Sin enlace.';
-                ?>
-                    <tr>
-                        <td><?php echo "<b>Cápsula " . $key + 1 . ":</b> " . $value['titulo'] ?></td>
-                        <td><?php echo  $url ?></td>
-                    </tr>
-                <?php
+<ul class="nav nav-tabs d-flex flex-column flex-md-row justify-content-center">
+    <?php foreach ($años as $index => $año): ?>
+        <li class="nav-item col-sm-12 col-md-4 col-lg-2 m-2">
+            <a class="nav-link <?php echo $index === 0 ? 'active' : ''; ?>" 
+               data-bs-toggle="tab" 
+               data-bs-target="#tab-<?php echo $año; ?>">
+                <h4 class="text-center"><?php echo $año; ?></h4>
+            </a>
+        </li>
+    <?php endforeach; ?>
+</ul>
 
-                }
-                ?>
-            </tbody>
-        </table>
-    </div>
-    <h3 class="text-center">Otras conferencias</h3>
-    <div class="table-responsive">
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>Título</th>
-                    <th>Enlace</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Conferencia de prensa sobre la creación del Observatorio de Libertad de Expresión UdeG. Diciembre de 2021</td>
-                    <td><a href="https://www.youtube.com/watch?v=7Sz9_m-nsSI">Ver</a></td>
-                </tr>
-                <tr>
-                    <td>Conferencia “El estado de la libertad de expresión en México” como parte de la Cátedra Regina Martínez. 10 de abril de 2022.</td>
-                    <td><a href="https://www.youtube.com/watch?v=JLPpNH07f7g">Ver</a></td>
-                </tr>
-                <tr>
-                    <td>Testimonio Celia del Palacio. Sobre el día mundial para la libertad de prensa. Para CUSur. 10 de abril de 2022.</td>
-                    <td><a href="https://www.youtube.com/watch?v=gANWnBtYE7w">Ver</a></td>
-                </tr>
-                <tr>
-                    <td>Entrevista sobre el Observatorio de Libertad de Expresión para la revista Comunicación y Sociedad.</td>
-                    <td><a href="https://open.spotify.com/episode/4KcFWGB9XQ9a4BmZSOwQ4z?si=PWsP6gMBTHW6bk8ECAfHyA">Ver</a></td>
-                </tr>
-                <tr>
-                    <td>Rueda de prensa sobre los avances del Observatorio de Libertad de Expresión.</td>
-                    <td><a href="https://www.facebook.com/share/v/15mL1SJV5J/?mibextid=wwXIfr">Ver</a></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <div>
-        <h3 class="text-center">Libros publicados</h3>
-        <div class="d-flex">
-            <div>
-                <a href="http://www.publicaciones.cucsh.udg.mx/kiosko/2023/Estado%20de%20la%20libertad%20en%20Jalisco.pdf">
-                    <img src="./assets/archivos/Portada Estado Libertad de Expresion.jpg" alt="" style="aspect-ratio: 1/1;width:250px; object-fit:contain;">
-                    <span>Ver libro</span>
-                </a>
+<div class="tab-content">
+    <?php foreach ($años as $index => $año): ?>
+        <div class="tab-pane fade <?php echo $index === 0 ? 'show active' : ''; ?>" 
+             id="tab-<?php echo $año; ?>" 
+             data-aos="zoom-in-up" 
+             data-aos-duration="1000">
+
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Título</th>
+                            <th>Enlace</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php foreach ($data[$año] as $i => $capsula): ?>
+                            <tr>
+                                <td>
+                                    <?php echo "<b>Cápsula " . ($i + 1) . ":</b> " . $capsula['titulo']; ?>
+                                </td>
+                                <td>
+                                    <?php
+                                    if (!empty($capsula['link'])) {
+                                        echo '<a href="' . $capsula['link'] . '" target="_blank">Ver</a>';
+                                    } else {
+                                        echo 'Sin enlace';
+                                    }
+                                    ?>
+                                </td>
+                            </tr>
+                        <?php endforeach; ?>
+                    </tbody>
+                </table>
             </div>
-            <div>
-                <a href="./assets/archivos/Medios de comunicacion en Jalisco.pdf">
-                    <img src="./assets/archivos/portada_ana.jpg" alt="" style="aspect-ratio: 1/1;width:250px; object-fit:contain;">
-                    <span>Ver libro</span>
-                </a>
-            </div>
+
+        </div>
+    <?php endforeach; ?>
+</div>
+
+
+
+
+<h3 class="text-center">Otras conferencias</h3>
+<div class="table-responsive">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Título</th>
+                <th>Enlace</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Conferencia de prensa sobre la creación del Observatorio de Libertad de Expresión UdeG. Diciembre de 2021</td>
+                <td><a href="https://www.youtube.com/watch?v=7Sz9_m-nsSI">Ver</a></td>
+            </tr>
+            <tr>
+                <td>Conferencia “El estado de la libertad de expresión en México” como parte de la Cátedra Regina Martínez. 10 de abril de 2022.</td>
+                <td><a href="https://www.youtube.com/watch?v=JLPpNH07f7g">Ver</a></td>
+            </tr>
+            <tr>
+                <td>Testimonio Celia del Palacio. Sobre el día mundial para la libertad de prensa. Para CUSur. 10 de abril de 2022.</td>
+                <td><a href="https://www.youtube.com/watch?v=gANWnBtYE7w">Ver</a></td>
+            </tr>
+            <tr>
+                <td>Entrevista sobre el Observatorio de Libertad de Expresión para la revista Comunicación y Sociedad.</td>
+                <td><a href="https://open.spotify.com/episode/4KcFWGB9XQ9a4BmZSOwQ4z?si=PWsP6gMBTHW6bk8ECAfHyA">Ver</a></td>
+            </tr>
+            <tr>
+                <td>Rueda de prensa sobre los avances del Observatorio de Libertad de Expresión.</td>
+                <td><a href="https://www.facebook.com/share/v/15mL1SJV5J/?mibextid=wwXIfr">Ver</a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div>
+    <h3 class="text-center">Libros publicados</h3>
+    <div class="d-flex">
+        <div>
+            <a href="http://www.publicaciones.cucsh.udg.mx/kiosko/2023/Estado%20de%20la%20libertad%20en%20Jalisco.pdf">
+                <img src="./assets/archivos/Portada Estado Libertad de Expresion.jpg" alt="" style="aspect-ratio: 1/1;width:250px; object-fit:contain;">
+                <span>Ver libro</span>
+            </a>
+        </div>
+        <div>
+            <a href="./assets/archivos/Medios de comunicacion en Jalisco.pdf">
+                <img src="./assets/archivos/portada_ana.jpg" alt="" style="aspect-ratio: 1/1;width:250px; object-fit:contain;">
+                <span>Ver libro</span>
+            </a>
         </div>
     </div>
+</div>
 </section>
 
 <?php
